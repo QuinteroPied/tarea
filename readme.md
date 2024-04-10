@@ -30,7 +30,7 @@ cd ApiLibreria
 pip install -r requirements.txt
 ```
 
-# Configuración de la base de datos
+## Configuración de la base de datos
 
 en el archivo .env agrega
 
@@ -38,7 +38,7 @@ en el archivo .env agrega
 DATABASE_URL=postgresql://username:password@localhost/libreria
 ```
 
-# ejecución
+## ejecución
 ```
 uvicorn app.main:app --reload
 ```
