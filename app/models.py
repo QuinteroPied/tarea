@@ -8,3 +8,5 @@ class Libro(Base):
     titulo = Column(String, index=True)
     autor = Column(String, index=True)
     descripcion = Column(String, index=True)
+
+# Listo
